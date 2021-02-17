@@ -1,17 +1,60 @@
 
 #game-container {
     border: 1px solid black;
-    background-color: #D9AABA;
+    background-color: #eba9a9;
     width: 850px;
     height: 700px;
     margin: 0 auto;
 
 }
 
+#score-board {
+    width: 250px;
+    height: 500px;
+    text-align: center;
+    font-family: "Roboto";
+    background-color: #91b1ba;
+    border: 1px solid black;
+    box-shadow: 10px 5px #749198;
+    color: #545354;
+}
+#score-board h3 {
+    font-family:'Bungee Shade';
+    font-size: 30px;
+    color: #efc2c1;
+    margin-top: 1px;
+    margin-bottom: 8px;
+}
+
+#current-score {
+    width: 250px;
+    height: 500px;
+    font-size: 60px;
+    margin-right: 40px; 
+    text-align: center;
+    vertical-align: middle;
+    font-family:'Roboto';
+    font-size: 30px;
+    color: #545354;
+    background-color: #91b1ba;
+    border: 1px solid black;
+    box-shadow: 10px 5px #749198;
+}
+
+#current-score h3 {
+    margin-top: 1px;
+    color:#efc2c1;
+    font-family: "Roboto";
+}
+
+#current-score p {
+    font-size: 50px;
+}
+
 body {
     background-color: #e6a4b4;
 
-    background-image: url("background.jpg");
+    background-image: url("background.png");
 
 
 }
@@ -44,7 +87,8 @@ body {
 }
 
 #dirt-image{ 
-    padding-left: 15px;
+    padding-left: 25px;
     width:250px;
 
 }
+
