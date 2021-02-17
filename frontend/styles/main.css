@@ -1,7 +1,7 @@
 
 #game-container {
     border: 1px solid black;
-    background-color: #eba9a9;
+    background-color: #bce6eb;
     width: 850px;
     height: 700px;
     margin: 0 auto;
@@ -13,15 +13,15 @@
     height: 500px;
     text-align: center;
     font-family: "Georgia";
-    background-color: #91b1ba;
+    background-color: #fbbedf;
     border: 1px solid black;
-    box-shadow: 10px 5px #749198;
+    box-shadow: 10px 5px #fdcfdf;
     color: #545354;
 }
 #score-board h3 {
     font-family:'Georgia';
     font-size: 30px;
-    color: #efc2c1;
+    color: white;
     margin-top: 1px;
     margin-bottom: 8px;
 }
@@ -36,14 +36,14 @@
     font-family:'Roboto';
     font-size: 30px;
     color: #545354;
-    background-color: #91b1ba;
+    background-color: #fbbedf;
     border: 1px solid black;
-    box-shadow: 10px 5px #749198;
+    box-shadow: 10px 5px #fdcfdf;
 }
 
 #current-score h3 {
     margin-top: 1px;
-    color:#efc2c1;
+    color:white;
     font-family: "Georgia";
 }
 
