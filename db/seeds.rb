@@ -39,9 +39,6 @@ Doggo.create(
     {image: "styles/spike.png"}
 )
 
-Doggo.create(
-    {image: "styles/pretty-gorl.png"}
-)
 
 
 Doggo.create(

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_02_16_031045) do
+ActiveRecord::Schema.define(version: 2021_02_17_163610) do
 
   create_table "doggos", force: :cascade do |t|
     t.string "image"
@@ -19,20 +19,16 @@ ActiveRecord::Schema.define(version: 2021_02_16_031045) do
   end
 
   create_table "games", force: :cascade do |t|
-    t.integer "level"
-    t.string "difficulty"
+    t.string "user_id"
+    t.string "score"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "scores", force: :cascade do |t|
-    t.string "username"
-    t.integer "hits"
-    t.integer "game_id", null: false
+  create_table "users", force: :cascade do |t|
+    t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["game_id"], name: "index_scores_on_game_id"
   end
 
-  add_foreign_key "scores", "games"
 end
