@@ -17,6 +17,6 @@ function fetchUsers (){
 function fetchDoggos (){
     fetch(`${baseUrl}/doggos`)
     .then(response => response.json())
-    .then(doggos=> console.log(doggos) )
+    .then(doggos=> for(const doggo of doggos) )
 }
 //create - new game 
